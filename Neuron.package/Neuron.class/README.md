@@ -1,0 +1,1 @@
+A Neuron that holds concepts, lives in a brain, has connections to other Neurons, and "fires" by announcing its concept when other connected Neurons fire to the point where this particular Neuron fires.

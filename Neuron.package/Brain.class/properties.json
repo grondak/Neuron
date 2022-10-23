@@ -1,13 +1,13 @@
 {
-	"commentStamp" : "TonyReynolds 10/23/2022 14:30",
+	"commentStamp" : "TonyReynolds 10/23/2022 14:29",
 	"super" : "Object",
 	"category" : "Neuron",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"topic"
+		"soup"
 	],
-	"name" : "Neuron",
+	"name" : "Brain",
 	"type" : "normal"
 }

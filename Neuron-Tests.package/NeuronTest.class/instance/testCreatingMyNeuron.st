@@ -1,7 +1,8 @@
 creation tests
 testCreatingMyNeuron
-	"Does does an object Neuron is done properly"	
-			
+
+	"Does does an object Neuron is done properly"
+
 	| tmp |
 	tmp := Neuron new.
-	self deny: (tmp = nil)
+	self deny: tmp equals: nil
