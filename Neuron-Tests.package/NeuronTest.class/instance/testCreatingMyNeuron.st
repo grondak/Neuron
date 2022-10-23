@@ -1,4 +1,4 @@
-creation tests
+tests - instance creation
 testCreatingMyNeuron
 
 	"Does does an object Neuron is done properly"

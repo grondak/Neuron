@@ -1,5 +1,5 @@
 tests - instance creation
-testInitialize
+testWithTopic
 
 	"Does initializing an object Neuron work properly?"
 

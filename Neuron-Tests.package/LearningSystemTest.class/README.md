@@ -1,0 +1,1 @@
+This class contains tests to ensure we can create a Brain and insert some Neurons

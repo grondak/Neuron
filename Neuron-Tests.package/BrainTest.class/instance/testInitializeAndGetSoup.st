@@ -1,4 +1,4 @@
-tests
+tests - instance creation
 testInitializeAndGetSoup
 	"can the Brain give back the container of Neurons"	
 			
