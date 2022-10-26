@@ -1,5 +1,5 @@
 learning
-testCanInsertAndConnect2
+testCanInsertAndConnect
 	"can the Brain insert a new Neuron with a collection of Connections to be made?"	
 			
 	| aTopic aSecondTopic tmpBrain tmpConnectionBag |

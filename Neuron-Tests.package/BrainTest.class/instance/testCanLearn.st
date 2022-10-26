@@ -1,5 +1,5 @@
 learning
-testCanLearn2
+testCanLearn
 	"can insert a Neuron by topic with no connections at all?"	
 			
 	| aTopic  tmpBrain  |
