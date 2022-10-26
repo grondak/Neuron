@@ -1,6 +1,6 @@
 tests
 testUpdatingTopic
-	"ensure I can change my mind"	
+	"Can I change my mind?"
 			
 	| tmpNeuron |
 	tmpNeuron := Neuron new.

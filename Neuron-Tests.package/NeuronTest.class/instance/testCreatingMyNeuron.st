@@ -1,7 +1,7 @@
 tests - instance creation
 testCreatingMyNeuron
 
-	"Does does an object Neuron is done properly"
+	"Can we make a single Neuron?"
 
 	| tmp |
 	tmp := Neuron new.

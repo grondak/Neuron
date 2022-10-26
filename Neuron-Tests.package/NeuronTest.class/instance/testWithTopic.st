@@ -1,6 +1,5 @@
 tests - instance creation
 testWithTopic
-
 	"Does initializing an object Neuron work properly?"
 
 	| tmp |
