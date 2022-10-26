@@ -5,4 +5,5 @@ testInitialize
 	| tmpLearningSystem |
 		tmpLearningSystem := LearningSystem initialize.
 		tmpLearningSystem learn: 'kittens'.
-		self assert: (((tmpLearningSystem brain) soup) at: 'kittens') equals: 1.0
+		self assert: (tmpLearningSystem knows: 'kittens') equals: true
+		"self assert: (((tmpLearningSystem brain) soup) at: 'kittens') equals: 1.0"

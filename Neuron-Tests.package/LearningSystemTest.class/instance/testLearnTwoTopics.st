@@ -1,16 +1,15 @@
 tests - accessing
 testLearnTwoTopics
-	"can the brain learn two topics and link them?"	
+	"can the brain learn two topics unlinked topics?"	
 			
-	| topicOne topicTwo tmpLearningSystem tmpBrainSoup |
+	| topicOne topicTwo tmpLearningSystem |
 	tmpLearningSystem := LearningSystem initialize.
 	topicOne := 'kittens'.
 	topicTwo := 'dogs'.
 	tmpLearningSystem learn: topicOne.
 	tmpLearningSystem learn: topicTwo.
-	tmpBrainSoup := (tmpLearningSystem brain) soup.
-	self assert: (tmpBrainSoup at: topicOne) equals: 1.0.
-	self assert: (tmpBrainSoup at: topicTwo) equals: 1.0.
+	self assert: (tmpLearningSystem knows: topicOne) equals: true.
+	self assert: (tmpLearningSystem knows: topicTwo) equals: true.
 
 
 	
