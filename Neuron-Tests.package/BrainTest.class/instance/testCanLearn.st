@@ -4,6 +4,6 @@ testCanLearn
 			
 	| aTopic  tmpBrain  |
 	aTopic := 'kittens'.
-	tmpBrain := Brain newFrom: (Dictionary new).
+	tmpBrain := Brain newFrom: Dictionary new.
 	tmpBrain learn: aTopic.
 	self assert: (tmpBrain knows: aTopic) equals: true

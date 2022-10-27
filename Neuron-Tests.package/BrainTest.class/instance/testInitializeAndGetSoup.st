@@ -4,4 +4,4 @@ testInitializeAndGetSoup
 			
 	| tmpSoup |
 		tmpSoup := Dictionary newFrom: { #something->'nothing' }.
-		self assert: (Brain newFrom: (tmpSoup)) soup equals: tmpSoup
+		self assert: (Brain newFrom: tmpSoup) soup equals: tmpSoup

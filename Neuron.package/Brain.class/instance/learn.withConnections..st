@@ -1,8 +1,10 @@
 inserting
-learn: aNeuron withConnections: connectionDictionary
-	"the brain takes a Neuron and connects it to the others as requested."	
-	soup at: (aNeuron topic) put: aNeuron.
-	connectionDictionary  do: [ :tmpNeuron | aNeuron connectTo: tmpNeuron   ].
+learn: aTopic withConnections: connectionBag
+	"the brain takes a Topic and connects the topic's Neuron to the others as requested."
+	| relatedNeuron |	
+	self learn: aTopic.
+	relatedNeuron := soup at: aTopic.
+	connectionBag  do: [ :tmpTopic | relatedNeuron connectTo: (soup at: (tmpTopic asString)) ].
 	^ self
 
 	

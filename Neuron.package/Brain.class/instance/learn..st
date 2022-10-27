@@ -5,6 +5,6 @@ learn: aTopic
 			
 	| tmpNeuron |
 	tmpNeuron := Neuron withTopic: aTopic.
-	soup at: (tmpNeuron topic) put: tmpNeuron.
+	soup at: tmpNeuron topic put: tmpNeuron.
 	^ self
 	
