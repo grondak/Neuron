@@ -6,5 +6,6 @@ testAddingAConnection
 	tmpNeuron := Neuron withTopic: 'kittens'.
 	tmpSecondNeuron := Neuron withTopic: 'your mom'.
 	self assert: tmpNeuron topic equals: 'kittens'.
-	self assert: ((tmpNeuron connectTo: tmpSecondNeuron ) isConnectedTo: tmpSecondNeuron) equals: true
+	self assert: ((tmpNeuron connectTo: tmpSecondNeuron ) isConnectedTo: tmpSecondNeuron) equals: true.
+	self assert: (tmpNeuron hasWeightTo: tmpSecondNeuron) equals: 1.0.
 	

@@ -1,3 +1,4 @@
 initialization
 initialize
-	connected := Dictionary new
+	connected := Dictionary new.
+	weights := Dictionary new.

@@ -10,4 +10,5 @@ testCanInsertAndConnect
 	tmpConnectionBag := Bag new.
 	tmpConnectionBag add: aTopic.
 	tmpBrain learn: aSecondTopic withConnections: tmpConnectionBag.
-	self assert: ((tmpBrain soup at: aSecondTopic) isConnectedTo: (tmpBrain soup at: aTopic )) equals: true
+	self assert: ((tmpBrain soup at: aSecondTopic) isConnectedTo: (tmpBrain soup at: aTopic )) equals: true.
+	self assert: ((tmpBrain soup at: aSecondTopic) hasWeightTo: (tmpBrain soup at: aTopic )) equals: 1.0.
