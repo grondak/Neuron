@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "TonyReynolds 12/25/2022 20:36",
+	"super" : "WaitfreeQueue",
+	"category" : "Neuron",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "SimulatedEventsQueue",
+	"type" : "normal"
+}

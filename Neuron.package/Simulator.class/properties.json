@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "TonyReynolds 12/25/2022 21:02",
+	"super" : "Object",
+	"category" : "Neuron",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"learningSystem",
+		"simulatedEventsQueue"
+	],
+	"name" : "Simulator",
+	"type" : "normal"
+}

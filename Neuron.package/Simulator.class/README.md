@@ -1,0 +1,1 @@
+Holds a queue to simulate time in the real world, a learning system to learn things, and an input system to feed ieas into the learning system
